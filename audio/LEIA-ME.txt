@@ -1,0 +1,49 @@
+# 🎙️ Áudios da Apresentação — Gestão de Fluxo
+
+Este diretório contém os áudios narrados que acompanham os slides da apresentação.  
+Cada arquivo `narr-v2-XX.mp3` corresponde a um slide específico, conforme o roteiro do Figma.
+
+## Mapeamento Slide → Áudio
+
+| Slide | Arquivo        | Título / Conteúdo |
+|-------|----------------|-------------------|
+| 1     | narr-v2-01.mp3 | Gestão de Fluxo (Capa) |
+| 2     | narr-v2-02.mp3 | Introdução |
+| 3     | narr-v2-03.mp3 | Agilidade em Larga Escala |
+| 4     | narr-v2-04.mp3 | Lead Time — Detalhamento |
+| 5     | narr-v2-05.mp3 | Vazão (Throughput) |
+| 6     | narr-v2-06.mp3 | WIP (Work in Progress) |
+| 7     | narr-v2-07.mp3 | O Sistema de Fluxo |
+| 8     | narr-v2-08.mp3 | O Que é WIP? |
+| 9     | narr-v2-09.mp3 | Overload de WIP: Efeito Dominó |
+| 10    | narr-v2-10.mp3 | O Que é Vazão? |
+| 11    | narr-v2-11.mp3 | O Que é Lead Time? |
+| 12    | narr-v2-12.mp3 | Como WIP Afeta a Vazão |
+| 13    | narr-v2-13.mp3 | Lei de Little |
+| 14    | narr-v2-14.mp3 | Consequências Práticas |
+| 15    | narr-v2-15.mp3 | WIP — Gestão Consciente |
+| 16    | narr-v2-16.mp3 | Relação entre as Métricas |
+| 17    | narr-v2-17.mp3 | Flow Efficiency |
+| 18    | narr-v2-18.mp3 | Visualização do Fluxo *(Regravado ElevenLabs)* |
+| 19    | narr-v2-19.mp3 | Identificando Gargalos *(Regravado ElevenLabs)* |
+| 20    | narr-v2-20.mp3 | Ciclo de Vida da Demanda *(Regravado ElevenLabs)* |
+| 21    | narr-v2-21.mp3 | Da Demanda à Entrega Ágil *(Regravado ElevenLabs)* |
+| 22    | narr-v2-22.mp3 | Gestão de Demandas |
+| 23    | narr-v2-23.mp3 | Do Estratégico ao Operacional *(Novo — ElevenLabs)* |
+| 24    | narr-v2-24.mp3 | Estrutura no Service Now |
+| 25    | narr-v2-25.mp3 | Exemplo Prático |
+| 26    | narr-v2-26.mp3 | Foco, Objetivo Claro e Dizer Não |
+| 27    | narr-v2-27.mp3 | Resistência Cultural ao WIP |
+| 28    | narr-v2-28.mp3 | Priorização Tardia e Trabalho Entubado |
+| 29    | narr-v2-29.mp3 | Seu Time Não Está Lento |
+| 30    | narr-v2-30.mp3 | Fluxo em 5 Alavancas |
+| 31    | narr-v2-31.mp3 | Recomendações Normativas |
+| 32    | narr-v2-32.mp3 | Mensagem Final |
+
+---
+
+## Observações
+- Os áudios dos slides **18, 19, 20, 21 e 23** foram regravados com ElevenLabs e já estão renomeados para o padrão `narr-v2-XX.mp3`.  
+- Todos os demais seguem o padrão original e estão corretos.  
+- Este README serve como referência definitiva para validar contra o Figma.
+
