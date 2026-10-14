@@ -19,7 +19,7 @@
   "A Lei de Little formaliza: Vazão = WIP ÷ Lead Time.",
   "Com WIP controlado, Lead Time curto e Vazão alta. Com WIP excessivo, Lead Time explode e Vazão despenca.",
   "O contraste é claro: squads com 15 tarefas simultâneas têm Lead Time em semanas e Vazão baixa. Com 4–6 tarefas, Lead Time em dias e Vazão consistente.",
-  "A frase que resume: 'Pare de começar e comece a terminar.'"
+  "A frase que resume: 'Pare de começar e comece a terminar.'",
 "A agilidade em larga escala trata a limitação de WIP como mecanismo essencial de governança.",
   "As três métricas formam um sistema interdependente: limitar WIP → Lead Times curtos → Throughput sustentável.",
   "Eficiência de fluxo: apenas 25% do Lead Time é trabalho ativo; 75% são esperas e filas.",
