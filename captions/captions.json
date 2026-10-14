@@ -18,29 +18,29 @@
   ],
   [
     [0.0, "Visualize o fluxo de trabalho como uma tubulação."],
-    [2.88, "Na entrada chegam as demandas, dentro da tubulação existe o whip, tudo que foi iniciado e ainda não concluído."],
+    [2.88, "Na entrada chegam as demandas, dentro da tubulação existe o WIP, tudo que foi iniciado e ainda não concluído."],
     [13.08, "E na saída temos a vazão, o que efetivamente é entregue ao cliente."],
-    [18.7, "Quando o whip é controlado, o fluxo é rápido e a vazão é alta e constante."],
-    [24.7, "Quando o whip cresce, além da capacidade, a tubulação em top, o fluxo desacelera e o sistema pode colapsar."],
+    [18.7, "Quando o WIP é controlado, o fluxo é rápido e a vazão é alta e constante."],
+    [24.7, "Quando o WIP cresce, além da capacidade, a tubulação em top, o fluxo desacelera e o sistema pode colapsar."],
     [35.64, "Essa analogia é simples, mas suas implicações são profundas."]
   ],
   [
-    [0.0, "Whip significa work in progress, todo o trabalho que foi iniciado, mas ainda não foi concluído."],
+    [0.0, "WIP significa work in progress, todo o trabalho que foi iniciado, mas ainda não foi concluído."],
     [7.44, "Para tornar isso concreto, imagine uma cozinha de restaurante."],
     [12.96, "Com 3 cozinheiros preparando 5 pedidos, o ritmo é alto e os clientes são atendidos rapidamente."],
     [20.34, "Se os mesmos 3 cozinheiros tentarem trabalhar em 15 pedidos ao mesmo tempo, nenhum prato fica pronto."],
     [28.12, "O tempo de espera explode, a qualidade cai e a equipe se exaure."],
-    [33.36, "O whip é esse número de pedidos simultâneos."],
+    [33.36, "O WIP é esse número de pedidos simultâneos."],
     [37.74, "Quanto maior, mais lento e mais caótico, tudo fica."]
   ],
   [
-    [0.0, "O overload de whip não acontece de uma vez, é um efeito dominó gradual em 5 etapas."],
-    [7.3, "Com o whip baixo, o foco é mantido e o fluxo é estável."],
-    [12.22, "À medida que o whip sobe, começa a troca de contexto e a velocidade cai."],
-    [16.82, "Com o whip alto, o foco se fragmenta e os gargalos aparecem."],
-    [21.78, "Com o whip excessivo, praticamente nada termina e a vazão colapsa."],
+    [0.0, "O overload de WIP não acontece de uma vez, é um efeito dominó gradual em 5 etapas."],
+    [7.3, "Com o WIP baixo, o foco é mantido e o fluxo é estável."],
+    [12.22, "À medida que o WIP sobe, começa a troca de contexto e a velocidade cai."],
+    [16.82, "Com o WIP alto, o foco se fragmenta e os gargalos aparecem."],
+    [21.78, "Com o WIP excessivo, praticamente nada termina e a vazão colapsa."],
     [27.6, "O paradoxo revelador está na 5ª etapa."],
-    [31.28, "Quando se reduz o whip de volta a um nível saudável, o sistema respira, o foco retorna e a vazão se recupera."],
+    [31.28, "Quando se reduz o WIP de volta a um nível saudável, o sistema respira, o foco retorna e a vazão se recupera."],
     [39.36, "Começar menos é a estratégia para entregar mais."]
   ],
   [
@@ -48,45 +48,45 @@
     [9.54, "É a única métrica que mede valor genuinamente entregue ao cliente."],
     [16.3, "Não as tarefas iniciadas, não as horas trabalhadas, não as reuniões realizadas."],
     [22.6, "Uma feature em produção, uma história aceita, um bug resolvido, isso é vazão."],
-    [28.54, "Um time pode estar com altíssimo whip e esforço aparente e ter vazão próxima de zero se nada estiver sendo finalizado."],
+    [28.54, "Um time pode estar com altíssimo WIP e esforço aparente e ter vazão próxima de zero se nada estiver sendo finalizado."],
     [38.32, "O que importa para o negócio é o que sai, não o que entra."]
   ],
   [
     [0.0, "Lead time é o tempo total que um item leva desde o momento em que é criado ou solicitado até ser aceito como concluído, incluindo todo o tempo de espera, filas, revisões e retrabalho."],
     [14.38, "Pense em uma viagem de carro."],
-    [17.12, "Em pista livre, com whip baixo, você chega em dias."],
+    [17.12, "Em pista livre, com WIP baixo, você chega em dias."],
     [21.2, "No trânsito moderado, leva o dobro."],
     [24.08, "No congestionamento total, semanas para o mesmo destino."],
-    [28.72, "Whip é o volume de tráfego na rodovia."],
+    [28.72, "WIP é o volume de tráfego na rodovia."],
     [32.28, "Quanto mais veículos simultâneos, mais lento o sistema inteiro."],
     [37.26, "Reduzir o lead time significa mais previsibilidade e mais satisfação do cliente."]
   ],
   [
-    [0.0, "A relação entre whip e vazão é inversamente proporcional e esse é o paradoxo que mais confunde organizações."],
+    [0.0, "A relação entre WIP e vazão é inversamente proporcional e esse é o paradoxo que mais confunde organizações."],
     [10.46, "Intuitivamente, parece que fazer mais coisas ao mesmo tempo deveria gerar mais entregas."],
-    [16.86, "Na prática, o efeito é exatamente o oposto, mas o whip fragmenta a atenção do time, alonga o lead time de cada item e, consequentemente, reduz o número de itens concluídos no mesmo período."],
-    [32.36, "Mas o whip resulta em menos vazão."],
+    [16.86, "Na prática, o efeito é exatamente o oposto, mas o WIP fragmenta a atenção do time, alonga o lead time de cada item e, consequentemente, reduz o número de itens concluídos no mesmo período."],
+    [32.36, "Mas o WIP resulta em menos vazão."],
     [35.36, "É a lei do congestionamento, aplicada ao trabalho intelectual."],
     [40.16, "E poucos líderes a reconhecem até ver os dados."]
   ],
   [
     [0.0, "A lei de Little formaliza matematicamente o que a intuição já deveria nos dizer."],
-    [5.7, "Vazão x whip, lead time."],
+    [5.7, "Vazão x WIP, lead time."],
     [9.34, "Os cenários na tela mostram a progressão."],
-    [12.72, "Com whip controlado e lead time curto, a vazão é alta e estável."],
-    [18.24, "Quando o whip dobra sem aumento de capacidade, o lead time também dobra e a vazão não melhora, apenas fica instável."],
-    [26.98, "Com whip excessivo, o lead time explode e a vazão despenca."],
-    [31.68, "No colapso, com whip fora de controle, praticamente nada é entregue."],
+    [12.72, "Com WIP controlado e lead time curto, a vazão é alta e estável."],
+    [18.24, "Quando o WIP dobra sem aumento de capacidade, o lead time também dobra e a vazão não melhora, apenas fica instável."],
+    [26.98, "Com WIP excessivo, o lead time explode e a vazão despenca."],
+    [31.68, "No colapso, com WIP fora de controle, praticamente nada é entregue."],
     [37.88, "A matemática não mente."],
-    [39.84, "Controlar o whip é a alavanca mais eficaz para manter o throughput sustentável."]
+    [39.84, "Controlar o WIP é a alavanca mais eficaz para manter o throughput sustentável."]
   ],
   [
     [0.0, "O contraste entre os dois cenários é inequívoco."],
-    [4.6, "Com whip alto, 15 ou mais tarefas simultâneas por squad, o lead time cresce para semanas."],
+    [4.6, "Com WIP alto, 15 ou mais tarefas simultâneas por squad, o lead time cresce para semanas."],
     [12.26, "A vazão despenca."],
     [13.56, "O retrabalho é alto."],
     [15.8, "A equipe vive sob pressão e os clientes estão frustrados."],
-    [20.46, "Com whip controlado, 4 a 6 tarefas por squad, o lead time cai para dias."],
+    [20.46, "Com WIP controlado, 4 a 6 tarefas por squad, o lead time cai para dias."],
     [26.96, "A vazão sobe consistentemente."],
     [29.6, "A equipe tem foco, a qualidade é alta e os clientes recebem entregas previsíveis e frequentes."],
     [37.38, "A frase que resume a transformação."],
@@ -135,8 +135,8 @@
   ],
   [
     [0.0, "No ServiceNow, a hierarquia de trabalho segue uma cadeia formal com critérios de avanço em cada nível."],
-    [6.86, "A demanda, pedido aprovado pelo sponsor ou product owner, origina o EPICO, o grande objetivo de negócio com escopo e ROI definidos."],
-    [16.26, "O EPICO se decompõe em funcionalidades que passam pela definição de pronto com PO e tech lead antes de entrar no fluxo de desenvolvimento."],
+    [6.86, "A demanda, pedido aprovado pelo sponsor ou product owner, origina o épico, o grande objetivo de negócio com escopo e ROI definidos."],
+    [16.26, "O épico se decompõe em funcionalidades que passam pela definição de pronto com PO e tech lead antes de entrar no fluxo de desenvolvimento."],
     [26.58, "As funcionalidades detalham em histórias de usuário, validadas pelo critério INVEST. Independente, negociável, valiosa, estimável, pequena, estável."],
     [38.58, "As histórias são executadas via tarefas e podem gerar defeitos rastreáveis."],
     [43.58, "A regra que governa o sistema inteiro."],
@@ -167,34 +167,34 @@
   [
     [0.0, "Vazão é o indicador de desempenho do sistema, não da produtividade de indivíduos."],
     [6.4, "Ela mede a capacidade real coletiva de finalizar trabalho e entregar valor validado por sprint, semana ou mês."],
-    [14.72, "Incrementar a vazão exige identificar e reduzir gargalos, limitar o whip e proteger o foco dos times."],
+    [14.72, "Incrementar a vazão exige identificar e reduzir gargalos, limitar o WIP e proteger o foco dos times."],
     [24.32, "Usar vazão para avaliar pessoas individualmente é um erro que distorce comportamentos, cria incentivos perversos e corrói a cultura de colaboração."],
     [35.54, "Vazão sustentável vem da melhoria do fluxo, não da pressão sobre indivíduos."]
   ],
   [
-    [0.0, "Whip é todo o trabalho que foi iniciado, mas ainda não chegou à conclusão."],
+    [0.0, "WIP é todo o trabalho que foi iniciado, mas ainda não chegou à conclusão."],
     [6.44, "Em qualquer estágio do fluxo, seu acúmulo excessivo desencadeia uma cascata de efeitos negativos."],
     [14.4, "Gargalos aparecem em etapas de menor capacidade, o lead time de cada item aumenta porque a atenção do time está dividida."],
     [23.24, "O foco se fragmenta pela troca constante de contexto, a probabilidade de retrabalho cresce e a vazão cai."],
-    [33.26, "Limitar o whip conscientemente é um ato de proteção do sistema, não uma restrição à capacidade do time."]
+    [33.26, "Limitar o WIP conscientemente é um ato de proteção do sistema, não uma restrição à capacidade do time."]
   ],
   [
-    [0.0, "A agilidade em larga escala trata a limitação de whip como um mecanismo essencial de governança, não uma opção."],
+    [0.0, "A agilidade em larga escala trata a limitação de WIP como um mecanismo essencial de governança, não uma opção."],
     [10.36, "O diagrama mostra os dois lados."],
-    [12.84, "Alto whip gera lead time crescente, vazão decrescente, risco elevado de retrabalho e degradação da qualidade."],
-    [21.26, "Gestão consciente do whip, por outro lado, gera foco real."],
+    [12.84, "Alto WIP gera lead time crescente, vazão decrescente, risco elevado de retrabalho e degradação da qualidade."],
+    [21.26, "Gestão consciente do WIP, por outro lado, gera foco real."],
     [26.52, "Colaboração entre membros para destravar itens, entregas mais rápidas e maior valor entregue a cada ciclo."],
-    [34.14, "A diferença entre times que entregam bem e times congestionados está frequentemente no whip e em quem tem coragem de limitá-lo."]
+    [34.14, "A diferença entre times que entregam bem e times congestionados está frequentemente no WIP e em quem tem coragem de limitá-lo."]
   ],
   [
     [0.0, "As três métricas formam um sistema interdependente."],
     [3.64, "Não podem ser analisadas isoladamente."],
-    [7.2, "Quanto maior o whip, maior tende a ser o lead time, pois a capacidade disponível é dividida entre múltiplos itens simultâneos."],
-    [17.38, "O excesso de whip cria a falsa aparência de produtividade."],
+    [7.2, "Quanto maior o WIP, maior tende a ser o lead time, pois a capacidade disponível é dividida entre múltiplos itens simultâneos."],
+    [17.38, "O excesso de WIP cria a falsa aparência de produtividade."],
     [22.48, "Muita coisa em andamento, mas não se converte em maior vazão porque pouco é concluído."],
     [28.6, "Lead times longos, por sua vez, reduzem o throughput."],
     [34.28, "Quanto mais tempo para finalizar um item, menos itens são entregues no mesmo período."],
-    [40.48, "A equação é limitar whip, lead times curtos, throughput sustentável."]
+    [40.48, "A equação é limitar WIP, lead times curtos, throughput sustentável."]
   ],
   [
     [0.0, "A eficiência de fluxo revela uma realidade surpreendente."],
