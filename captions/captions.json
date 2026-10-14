@@ -319,37 +319,4 @@
     [44.9, "A maturidade ágil não se resume à adoção formal do framework, mas à capacidade de compreender e otimizar o fluxo de valor de ponta a ponta."]
   ]
 ]
-ENDJSON
-python3 -c "import json; data=json.load(open('/tmp/captions.json')); print(f'Entradas: {len(data)}'); [print(f'[{i+1:02d}]: {len(e)} cues, {e[0][0]}s → {e[-1][0]}s') for i,e in enumerate(data)]"
-Entradas: 31
-[01]: 3 cues, 0.0s → 27.4s
-[02]: 5 cues, 0.0s → 33.38s
-[03]: 3 cues, 0.0s → 25.26s
-[04]: 6 cues, 0.0s → 35.64s
-[05]: 7 cues, 0.0s → 37.74s
-[06]: 8 cues, 0.0s → 39.36s
-[07]: 6 cues, 0.0s → 38.32s
-[08]: 8 cues, 0.0s → 37.26s
-[09]: 6 cues, 0.0s → 40.16s
-[10]: 9 cues, 0.0s → 39.84s
-[11]: 10 cues, 0.0s → 40.14s
-[12]: 13 cues, 0.0s → 51.92s
-[13]: 13 cues, 0.0s → 47.36s
-[14]: 9 cues, 0.0s → 47.42s
-[15]: 8 cues, 0.0s → 52.94s
-[16]: 10 cues, 0.0s → 52.32s
-[17]: 7 cues, 0.0s → 35.5s
-[18]: 5 cues, 0.0s → 35.54s
-[19]: 5 cues, 0.0s → 33.26s
-[20]: 6 cues, 0.0s → 34.14s
-[21]: 8 cues, 0.0s → 40.48s
-[22]: 7 cues, 0.0s → 40.5s
-[23]: 6 cues, 0.0s → 39.42s
-[24]: 8 cues, 0.0s → 42.46s
-[25]: 5 cues, 0.0s → 34.52s
-[26]: 11 cues, 0.0s → 55.98s
-[27]: 7 cues, 0.0s → 41.72s
-[28]: 13 cues, 0.0s → 50.82s
-[29]: 20 cues, 0.0s → 50.56s
-[30]: 17 cues, 0.0s → 55.72s
-[31]: 8 cues, 0.0s → 44.9s
+
