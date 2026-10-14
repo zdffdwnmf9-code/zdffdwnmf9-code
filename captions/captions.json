@@ -1,136 +1,356 @@
+$ cat > /tmp/captions.json << 'ENDJSON'
 [
   [
-    [0.0, "Esta apresentação trata de gestão de fluxo — a ciência de fazer o trabalho fluir de forma previsível, rápida e sustentável."],
-    [9.5, "Os três pilares são Lead Time, Vazão (Throughput) e WIP (Work in Progress)."],
+    [0.0, "Esta apresentação trata de gestão de fluxo, a ciência de fazer o trabalho fluir de forma previsível, rápida e sustentável."],
+    [9.5, "Os três pilares são lead time, quanto tempo leva uma entrega, vazão ou throughput, quantos itens são concluídos por período, e o WIP, ou Work in Progress, quanto trabalho está em andamento ao mesmo tempo."],
     [27.4, "Compreender e equilibrar essas três métricas é o que separa times realmente produtivos de times apenas ocupados."]
   ],
   [
     [0.0, "A complexidade das demandas modernas exige mais do que times isolados trabalhando rápido."],
-    [8.7, "É preciso alinhar estratégia, execução e governança em um único sistema coerente."],
-    [19.2, "Organizações maduras operam orientadas ao fluxo de valor: entregam continuamente, aprendem rapidamente e respondem ao mercado com agilidade."]
+    [6.2, "É preciso alinhar estratégia, execução e governança em um único sistema coerente."],
+    [13.8, "Organizações maduras operam orientadas ao fluxo de valor, entregam continuamente, aprendem rapidamente e respondem ao mercado com agilidade."],
+    [25.68, "Vazão, lead time e WIP são os instrumentos que tornam esse sistema mensurável e gerenciável."],
+    [33.38, "Sem eles a gestão opera no escuro."]
   ],
   [
-    [0.0, "Vazão, Lead Time e WIP são os instrumentos que tornam esse sistema mensurável e gerenciável."],
-    [10.2, "Sem eles a gestão opera no escuro."],
-    [18.5, "A agilidade em larga escala, como o SAFe, organiza o trabalho em Fluxos de Valor e Agile Release Trains."]
+    [0.0, "A agilidade em larga escala, como o SAFE, organiza o trabalho em fluxos de valor e Agile Release Trains, e no ARTs, com o PI Planning, alinhando equipes trimestralmente."],
+    [14.28, "O ponto crítico aqui é o deslocamento de foco, deixar de otimizar times individualmente e passar a otimizar o sistema inteiro de entrega de valor."],
+    [25.26, "Limitar WIP, reduzir tempos de espera e acelerar o fluxo ponta a ponta são os mecanismos centrais dessa otimização sistêmica."]
   ],
   [
-    [0.0, "O ponto crítico é o deslocamento de foco: deixar de otimizar times individualmente e passar a otimizar o sistema inteiro de entrega de valor."],
-    [12.4, "Limitar WIP, reduzir tempos de espera e acelerar o fluxo ponta a ponta são os mecanismos centrais dessa otimização."]
+    [0.0, "Visualize o fluxo de trabalho como uma tubulação."],
+    [2.88, "Na entrada chegam as demandas, dentro da tubulação existe o whip, tudo que foi iniciado e ainda não concluído."],
+    [13.08, "E na saída temos a vazão, o que efetivamente é entregue ao cliente."],
+    [18.7, "Quando o whip é controlado, o fluxo é rápido e a vazão é alta e constante."],
+    [24.7, "Quando o whip cresce, além da capacidade, a tubulação em top, o fluxo desacelera e o sistema pode colapsar."],
+    [35.64, "Essa analogia é simples, mas suas implicações são profundas."]
   ],
   [
-    [0.0, "O Lead Time incorpora muito mais do que o tempo ativo de desenvolvimento."],
-    [7.8, "Inclui períodos de espera, filas, revisões, aprovações e deploy."],
-    [18.6, "Reduzir o Lead Time significa responder mais rápido ao mercado e aumentar a satisfação do cliente."]
+    [0.0, "Whip significa work in progress, todo o trabalho que foi iniciado, mas ainda não foi concluído."],
+    [7.44, "Para tornar isso concreto, imagine uma cozinha de restaurante."],
+    [12.96, "Com 3 cozinheiros preparando 5 pedidos, o ritmo é alto e os clientes são atendidos rapidamente."],
+    [20.34, "Se os mesmos 3 cozinheiros tentarem trabalhar em 15 pedidos ao mesmo tempo, nenhum prato fica pronto."],
+    [28.12, "O tempo de espera explode, a qualidade cai e a equipe se exaure."],
+    [33.36, "O whip é esse número de pedidos simultâneos."],
+    [37.74, "Quanto maior, mais lento e mais caótico, tudo fica."]
   ],
   [
-    [0.0, "Vazão é o indicador de desempenho do sistema — não da produtividade de indivíduos."],
-    [9.5, "Ela mede a capacidade real coletiva de finalizar trabalho e entregar valor."],
-    [18.2, "Usar Vazão para avaliar pessoas individualmente é um erro que distorce comportamentos e corrói a cultura."]
+    [0.0, "O overload de whip não acontece de uma vez, é um efeito dominó gradual em 5 etapas."],
+    [7.3, "Com o whip baixo, o foco é mantido e o fluxo é estável."],
+    [12.22, "À medida que o whip sobe, começa a troca de contexto e a velocidade cai."],
+    [16.82, "Com o whip alto, o foco se fragmenta e os gargalos aparecem."],
+    [21.78, "Com o whip excessivo, praticamente nada termina e a vazão colapsa."],
+    [27.6, "O paradoxo revelador está na 5ª etapa."],
+    [31.28, "Quando se reduz o whip de volta a um nível saudável, o sistema respira, o foco retorna e a vazão se recupera."],
+    [39.36, "Começar menos é a estratégia para entregar mais."]
   ],
   [
-    [0.0, "WIP é todo trabalho iniciado mas ainda não concluído."],
-    [7.2, "Seu acúmulo excessivo gera gargalos, aumenta Lead Time e reduz Vazão."]
+    [0.0, "Vazão ou throughput é a quantidade de itens de trabalho efetivamente concluídos em um determinado período."],
+    [9.54, "É a única métrica que mede valor genuinamente entregue ao cliente."],
+    [16.3, "Não as tarefas iniciadas, não as horas trabalhadas, não as reuniões realizadas."],
+    [22.6, "Uma feature em produção, uma história aceita, um bug resolvido, isso é vazão."],
+    [28.54, "Um time pode estar com altíssimo whip e esforço aparente e ter vazão próxima de zero se nada estiver sendo finalizado."],
+    [38.32, "O que importa para o negócio é o que sai, não o que entra."]
   ],
   [
-    [0.0, "Visualize o fluxo como uma tubulação: na entrada chegam demandas, dentro está o WIP, e na saída a Vazão."],
-    [12.5, "Se o WIP cresce além da capacidade, o fluxo entope e o sistema colapsa."]
+    [0.0, "Lead time é o tempo total que um item leva desde o momento em que é criado ou solicitado até ser aceito como concluído, incluindo todo o tempo de espera, filas, revisões e retrabalho."],
+    [14.38, "Pense em uma viagem de carro."],
+    [17.12, "Em pista livre, com whip baixo, você chega em dias."],
+    [21.2, "No trânsito moderado, leva o dobro."],
+    [24.08, "No congestionamento total, semanas para o mesmo destino."],
+    [28.72, "Whip é o volume de tráfego na rodovia."],
+    [32.28, "Quanto mais veículos simultâneos, mais lento o sistema inteiro."],
+    [37.26, "Reduzir o lead time significa mais previsibilidade e mais satisfação do cliente."]
   ],
   [
-    [0.0, "Exemplo prático: três cozinheiros com cinco pedidos mantêm ritmo alto."],
-    [9.8, "Com quinze pedidos simultâneos, nenhum prato termina — o WIP explode."]
+    [0.0, "A relação entre whip e vazão é inversamente proporcional e esse é o paradoxo que mais confunde organizações."],
+    [10.46, "Intuitivamente, parece que fazer mais coisas ao mesmo tempo deveria gerar mais entregas."],
+    [16.86, "Na prática, o efeito é exatamente o oposto, mas o whip fragmenta a atenção do time, alonga o lead time de cada item e, consequentemente, reduz o número de itens concluídos no mesmo período."],
+    [32.36, "Mas o whip resulta em menos vazão."],
+    [35.36, "É a lei do congestionamento, aplicada ao trabalho intelectual."],
+    [40.16, "E poucos líderes a reconhecem até ver os dados."]
   ],
   [
-    [0.0, "O overload de WIP é um efeito dominó em cinco etapas."],
-    [6.7, "Com WIP baixo, o foco é mantido e o fluxo é estável."],
-    [14.2, "Com WIP excessivo, praticamente nada termina e a Vazão colapsa."]
+    [0.0, "A lei de Little formaliza matematicamente o que a intuição já deveria nos dizer."],
+    [5.7, "Vazão x whip, lead time."],
+    [9.34, "Os cenários na tela mostram a progressão."],
+    [12.72, "Com whip controlado e lead time curto, a vazão é alta e estável."],
+    [18.24, "Quando o whip dobra sem aumento de capacidade, o lead time também dobra e a vazão não melhora, apenas fica instável."],
+    [26.98, "Com whip excessivo, o lead time explode e a vazão despenca."],
+    [31.68, "No colapso, com whip fora de controle, praticamente nada é entregue."],
+    [37.88, "A matemática não mente."],
+    [39.84, "Controlar o whip é a alavanca mais eficaz para manter o throughput sustentável."]
   ],
   [
-    [0.0, "Vazão é a quantidade de itens concluídos em determinado período."],
-    [8.5, "O que importa é o que sai, não o que entra."]
+    [0.0, "O contraste entre os dois cenários é inequívoco."],
+    [4.6, "Com whip alto, 15 ou mais tarefas simultâneas por squad, o lead time cresce para semanas."],
+    [12.26, "A vazão despenca."],
+    [13.56, "O retrabalho é alto."],
+    [15.8, "A equipe vive sob pressão e os clientes estão frustrados."],
+    [20.46, "Com whip controlado, 4 a 6 tarefas por squad, o lead time cai para dias."],
+    [26.96, "A vazão sobe consistentemente."],
+    [29.6, "A equipe tem foco, a qualidade é alta e os clientes recebem entregas previsíveis e frequentes."],
+    [37.38, "A frase que resume a transformação."],
+    [40.14, "Pare de começar e comece a terminar."]
   ],
   [
-    [0.0, "Lead Time é o tempo total de um item desde a criação até a conclusão."],
-    [9.2, "Quanto maior o WIP, maior o Lead Time."]
+    [0.0, "O trabalho ágil em larga escala se organiza em três camadas interdependentes."],
+    [5.14, "No topo está a necessidade de negócio."],
+    [9.22, "A demanda estratégica ou operacional que define o porquê."],
+    [13.72, "O problema ou oportunidade que justifica o investimento."],
+    [17.98, "Ela origina as entregas, épicos ou funcionalidades, que representam o o quê."],
+    [24.66, "Resultados concretos e mensuráveis com valor observável para o cliente."],
+    [29.24, "As entregas se decompõem em itens de backlog."],
+    [33.26, "Histórias, enablers e tarefas técnicas."],
+    [36.52, "O como."],
+    [37.62, "Unidades executáveis pelos times nas sprints."],
+    [40.96, "Cada camada tem seu próprio ciclo de status, seu responsável e seus critérios de aceite."],
+    [47.28, "Lead time, WIP e vazão podem ser medidos em todas as camadas."],
+    [51.92, "Mas é nos itens de backlog onde o fluxo do dia-a-dia acontece com maior granularidade e precisão."]
   ],
   [
-    [0.0, "A relação entre WIP e Vazão é inversamente proporcional."],
-    [7.5, "Mais WIP resulta em menos entregas."]
+    [0.0, "Cada nível hierárquico possui um ciclo de status próprio que define exatamente onde o trabalho se encontra a cada momento."],
+    [8.04, "Uma necessidade percorre."],
+    [9.96, "Em ideação, para."],
+    [11.6, "Em revisão, para."],
+    [13.26, "Priorizada, para."],
+    [14.78, "Em atendimento, para concluída."],
+    [17.18, "Podendo ser cancelada em qualquer ponto."],
+    [19.32, "Uma entrega, épico ou feature, transita de nova para planejamento, para em atendimento, para concluída."],
+    [27.4, "Um item de backlog percorre sete estados."],
+    [30.58, "Novo, para refinamento, para preparado, para em desenvolvimento, para implementado, pronto, aceito."],
+    [38.42, "Cada transição de status é um evento mensurável."],
+    [41.8, "Ela registra o tempo que o item ficou em cada etapa, alimentando o cálculo do lead time real."],
+    [47.36, "Sem rastreabilidade de status, as métricas de fluxo perdem precisão e a gestão opera sem visibilidade."]
   ],
   [
-    [0.0, "A Lei de Little formaliza: Vazão = WIP ÷ Lead Time."],
-    [8.4, "Com WIP controlado, Lead Time curto e Vazão alta."]
+    [0.0, "Os itens de backlog são a menor unidade de valor entregável pelos times e sua qualidade determina diretamente a previsibilidade do fluxo."],
+    [9.62, "Para funcionar bem no sistema, um item precisa atender a três condições."],
+    [14.48, "Ser pequeno o suficiente para ser concluído em uma sprint."],
+    [17.56, "Ter critérios de aceite explícitos e verificáveis antes de iniciar."],
+    [22.76, "E ser independente o suficiente para fluir sem depender de outros itens incompletos."],
+    [28.54, "Histórias mal refinadas, grandes, ambíguas ou fortemente acopladas, atravessam múltiplas iterações sem serem concluídas."],
+    [37.72, "Isso eleva o WIP, alonga o lead time e corrói a previsibilidade da equipe."],
+    [42.72, "Refinar bem o backlog não é uma atividade técnica secundária."],
+    [47.42, "É uma decisão estratégica de gestão de fluxo com impacto direto nas métricas."]
   ],
   [
-    [0.0, "Com WIP excessivo, o Lead Time explode e a Vazão despenca."],
-    [9.1, "No colapso, praticamente nada é entregue."]
+    [0.0, "No ServiceNow, a hierarquia de trabalho segue uma cadeia formal com critérios de avanço em cada nível."],
+    [6.86, "A demanda, pedido aprovado pelo sponsor ou product owner, origina o EPICO, o grande objetivo de negócio com escopo e ROI definidos."],
+    [16.26, "O EPICO se decompõe em funcionalidades que passam pela definição de pronto com PO e tech lead antes de entrar no fluxo de desenvolvimento."],
+    [26.58, "As funcionalidades detalham em histórias de usuário, validadas pelo critério INVEST. Independente, negociável, valiosa, estimável, pequena, estável."],
+    [38.58, "As histórias são executadas via tarefas e podem gerar defeitos rastreáveis."],
+    [43.58, "A regra que governa o sistema inteiro."],
+    [46.98, "Nenhum item avança para o próximo nível sem cumprir o critério de aceite da etapa anterior."],
+    [52.94, "Qualquer desvio dessa cadeia contamina a rastreabilidade e distorce as métricas de vazão e lead time."]
   ],
   [
-    [0.0, "O contraste é claro: squads com 15 tarefas simultâneas têm Lead Time em semanas e Vazão baixa."],
-    [12.7, "Com 4–6 tarefas, Lead Time em dias e Vazão consistente."]
+    [0.0, "Para tornar a hierarquia concreta."],
+    [2.52, "A necessidade de negócio, melhorar a experiência digital do cliente, é aprovada e origina duas entregas distintas."],
+    [9.92, "Nova funcionalidade de login com autenticação biométrica e redesign completo da tela inicial."],
+    [17.46, "Cada entrega gera seus próprios itens de backlog executáveis."],
+    [21.82, "Para o login, as histórias incluem implementar o SDK biométrico, criar o fluxo de fallback por senha e testar os cenários de erro."],
+    [31.08, "Para a home, as histórias incluem atualizar o sistema de grid, implementar os novos componentes visuais e validar a acessibilidade."],
+    [39.36, "Cada item é rastreável a necessidade que o originou."],
+    [43.7, "Cada transição de status é um ponto de medição do lead time."],
+    [47.84, "O conjunto de itens aceitos por sprint é a vazão real do time."],
+    [52.32, "Não estimativas, mas entregas verificadas."]
   ],
   [
-    [0.0, "A frase que resume: 'Pare de começar e comece a terminar.'"]
+    [0.0, "O lead time incorpora muito mais do que o tempo ativo de desenvolvimento."],
+    [5.64, "Ele inclui períodos de espera, aguardando priorização, revisão, aprovação ou deploy."],
+    [12.18, "Filas de trabalho, onde o item fica parado, aguardando atenção."],
+    [18.32, "Tempo de retrabalho, por critérios de aceite não cumpridos."],
+    [22.86, "E a experiência percebida pelo cliente durante todo esse percurso."],
+    [27.96, "Reduzir o lead time significa responder mais rápido ao mercado e aumentar a satisfação do cliente."],
+    [35.5, "A chave está em atacar as esperas e filas, não tentar apenas acelerar o tempo de desenvolvimento ativo."]
   ],
   [
-    [0.0, "A agilidade em larga escala trata a limitação de WIP como mecanismo essencial de governança."],
-    [9.3, "Alto WIP gera Lead Time crescente, Vazão decrescente e risco elevado de retrabalho."]
+    [0.0, "Vazão é o indicador de desempenho do sistema, não da produtividade de indivíduos."],
+    [6.4, "Ela mede a capacidade real coletiva de finalizar trabalho e entregar valor validado por sprint, semana ou mês."],
+    [14.72, "Incrementar a vazão exige identificar e reduzir gargalos, limitar o whip e proteger o foco dos times."],
+    [24.32, "Usar vazão para avaliar pessoas individualmente é um erro que distorce comportamentos, cria incentivos perversos e corrói a cultura de colaboração."],
+    [35.54, "Vazão sustentável vem da melhoria do fluxo, não da pressão sobre indivíduos."]
+  ],
+  [
+    [0.0, "Whip é todo o trabalho que foi iniciado, mas ainda não chegou à conclusão."],
+    [6.44, "Em qualquer estágio do fluxo, seu acúmulo excessivo desencadeia uma cascata de efeitos negativos."],
+    [14.4, "Gargalos aparecem em etapas de menor capacidade, o lead time de cada item aumenta porque a atenção do time está dividida."],
+    [23.24, "O foco se fragmenta pela troca constante de contexto, a probabilidade de retrabalho cresce e a vazão cai."],
+    [33.26, "Limitar o whip conscientemente é um ato de proteção do sistema, não uma restrição à capacidade do time."]
+  ],
+  [
+    [0.0, "A agilidade em larga escala trata a limitação de whip como um mecanismo essencial de governança, não uma opção."],
+    [10.36, "O diagrama mostra os dois lados."],
+    [12.84, "Alto whip gera lead time crescente, vazão decrescente, risco elevado de retrabalho e degradação da qualidade."],
+    [21.26, "Gestão consciente do whip, por outro lado, gera foco real."],
+    [26.52, "Colaboração entre membros para destravar itens, entregas mais rápidas e maior valor entregue a cada ciclo."],
+    [34.14, "A diferença entre times que entregam bem e times congestionados está frequentemente no whip e em quem tem coragem de limitá-lo."]
   ],
   [
     [0.0, "As três métricas formam um sistema interdependente."],
-    [7.8, "Limitar WIP → Lead Times curtos → Throughput sustentável."]
+    [3.64, "Não podem ser analisadas isoladamente."],
+    [7.2, "Quanto maior o whip, maior tende a ser o lead time, pois a capacidade disponível é dividida entre múltiplos itens simultâneos."],
+    [17.38, "O excesso de whip cria a falsa aparência de produtividade."],
+    [22.48, "Muita coisa em andamento, mas não se converte em maior vazão porque pouco é concluído."],
+    [28.6, "Lead times longos, por sua vez, reduzem o throughput."],
+    [34.28, "Quanto mais tempo para finalizar um item, menos itens são entregues no mesmo período."],
+    [40.48, "A equação é limitar whip, lead times curtos, throughput sustentável."]
   ],
   [
-    [0.0, "Eficiência de fluxo: apenas 25% do Lead Time é trabalho ativo."],
-    [9.6, "Os outros 75% são esperas e filas."]
+    [0.0, "A eficiência de fluxo revela uma realidade surpreendente."],
+    [4.12, "Em sistemas típicos, apenas 25% do lead time é tempo de trabalho ativo."],
+    [9.28, "Desenvolvimento, testes, revisão."],
+    [13.24, "Os outros 75% são desperdício em filas, esperando priorização, aguardando revisão de código, pendente de aprovação, em fila para deploy."],
+    [24.58, "Essa proporção significa que atacar as esperas e não o trabalho em si é o caminho mais rápido e barato para dobrar a velocidade de entrega."],
+    [35.24, "O time, a capacidade e as ferramentas já existem."],
+    [40.5, "O problema está nas filas que o trabalho enfrenta entre as etapas."]
   ],
   [
-    [0.0, "Gerenciar fluxo exige visibilidade: Kanban e CFD revelam gargalos e acúmulo de WIP."]
+    [0.0, "Para gerenciar o fluxo é preciso antes torná-lo visível."],
+    [4.58, "O quadro Kanban animado mostra tarefas fluindo entre as colunas to do, em progresso, em revisão e concluído."],
+    [13.7, "Cada coluna acumulada é um sinal de alerta de possível gargalo."],
+    [17.58, "O fluxo cumulativo, CFD, mostra a evolução dos itens ao longo do tempo em duas bandas, concluído em azul e em andamento em laranja."],
+    [30.02, "Quando a banda laranja se alarga sem que a azul cresça na mesma proporção, o WIP está crescendo e um gargalo está se formando."],
+    [39.42, "O que não é visível não pode ser gerenciado."]
   ],
   [
-    [0.0, "Um gargalo é o ponto onde a capacidade é menor que a demanda."],
-    [8.4, "Sinais: Lead Time subindo, WIP acumulado, Vazão caindo."]
+    [0.0, "Um gargalo é o ponto do processo onde a capacidade de processamento é menor que a demanda que chega, criando acúmulo e atrasos."],
+    [10.74, "No pipeline aqui representado, a etapa em revisão concentra 11 itens, enquanto as demais etapas têm 1 a 3."],
+    [20.74, "Esse desequilíbrio é o gargalo."],
+    [23.42, "Os três sinais que o denunciam são lead time subindo."],
+    [26.98, "Os itens demoram mais para concluir."],
+    [30.78, "WIP acumulado antes da etapa congestionada e vazão caindo, menos itens concluídos por período."],
+    [38.9, "A solução não é sempre contratar mais pessoas."],
+    [42.46, "É aumentar a capacidade naquele ponto específico ou reduzir a taxa de entrada para equilibrar o fluxo."]
   ],
   [
-    [0.0, "Hierarquia ágil: Necessidade de Negócio → Entregas → Itens de Backlog."],
-    [9.2, "Cada nível tem status e critérios de aceite."]
+    [0.0, "Quando o objetivo estratégico não está claro, os times disparam iniciativas em múltiplas direções ao mesmo tempo."],
+    [7.88, "Esse comportamento tem um custo sistêmico direto e mensurável."],
+    [13.64, "Congestiona o fluxo, aumenta o WIP, multiplica as filas de espera em cada etapa, decisão, revisão de código, dependências externas, testes, deploy e dificulta a finalização de qualquer coisa."],
+    [29.5, "O resultado é baixa previsibilidade e frustração generalizada."],
+    [34.52, "A frase que resume o antídoto, priorizar é acima de tudo saber dizer não, especialmente para frentes que não movem o resultado estratégico e apenas consomem capacidade escassa."]
   ],
   [
-    [0.0, "Itens de Backlog devem ser pequenos, claros e independentes."],
-    [9.7, "Histórias mal refinadas aumentam WIP e Lead Time."]
+    [0.0, "O maior obstáculo à limitação de WIP não é técnico, é cultural."],
+    [5.2, "Existe um paradigma profundamente enraizado nas organizações."],
+    [8.62, "Mais iniciativas simultâneas demonstram comprometimento e capacidade da liderança."],
+    [14.94, "Esse modelo é empiricamente falso, mas politicamente conveniente."],
+    [19.66, "Dizer estamos trabalhando em 12 frentes ao mesmo tempo soa mais impressionante do que terminamos três coisas com excelência."],
+    [28.26, "Limitar o WIP desafia esse paradigma diretamente e frequentemente encontra resistência de quem associa ocupação à produtividade."],
+    [36.62, "A evidência, porém, é inequívoca."],
+    [39.86, "Times focados entregam mais rápido, com maior qualidade e maior impacto."],
+    [44.9, "A mudança começa quando a liderança aceita um princípio contraintuitivo."],
+    [49.64, "Dizer não a novas iniciativas é um ato de responsabilidade, não de limitação."],
+    [55.98, "Começar a terminar é mais difícil e mais valioso do que iniciar múltiplas frentes."]
   ],
   [
-    [0.0, "No ServiceNow, a cadeia formal exige critérios de pronto em cada nível."],
-    [9.5, "Nenhum item avança sem cumprir aceite."]
+    [0.0, "Três antepadrões recorrentes comprometem gravemente o fluxo."],
+    [5.62, "A priorização tardia, quando decisões de o que fazer chegam depois que o trabalho já foi iniciado, gera replanejamento e desperdício."],
+    [17.22, "O início de demandas fora do procedimento formal ignora a governança e injeta trabalho não planejado no sistema."],
+    [24.88, "O trabalho entubado, que chega por canais informais e entra sem passar pela priorização oficial, é especialmente danoso."],
+    [35.42, "Aumenta o BUWIP invisível e distorce as métricas."],
+    [39.34, "Os impactos são cumulativos."],
+    [41.72, "O WIP sobe, lead time cresce, previsibilidade cai e a confiança nos indicadores se perde."]
   ],
   [
-    [0.0, "Exemplo prático: 'Melhorar experiência digital' gera entregas como login biométrico e redesign da home."],
-    [11.2, "Cada história é rastreável e mensurável."]
+    [0.0, "Antes de atribuir lentidão ao time, faça o diagnóstico correto."],
+    [4.32, "Time ocupado não é sinônimo de time produtivo."],
+    [9.38, "Produtividade real é função do fluxo, não do esforço individual."],
+    [15.54, "Quando o sistema está congestionado por excesso de WIP, por filas longas ou por decisões lentas, mais esforço individual produz menos resultado coletivo."],
+    [27.14, "Os sintomas são identificáveis."],
+    [29.34, "Quanto mais WIP, mais filas surgem."],
+    [33.14, "Quanto mais frentes abertas, menos previsibilidade existe."],
+    [38.08, "Quanto mais trabalho iniciado, maior o estoque de inacabado."],
+    [42.6, "A solução está no sistema."],
+    [45.4, "Limite o WIP."],
+    [47.48, "Remova impedimentos."],
+    [49.34, "Proteja o foco."],
+    [50.82, "O ritmo se recupera naturalmente."]
   ],
   [
-    [0.0, "Quando o objetivo estratégico não está claro, múltiplas frentes congestionam o fluxo."],
-    [9.8, "Priorizar é saber dizer NÃO."]
+    [0.0, "5 alavancas práticas e estruturais para destravar o fluxo."],
+    [4.38, "1."],
+    [5.44, "WIP."],
+    [6.24, "Visual."],
+    [7.24, "Defina um teto explícito de itens por etapa para proteger o foco e tornar o lead time previsível."],
+    [14.78, "2."],
+    [15.56, "Lotes menores."],
+    [16.92, "Entregas menores fluem melhor pelo sistema, chegam mais cedo ao cliente e reduzem o risco de retrabalho."],
+    [24.8, "3."],
+    [25.64, "Regras claras."],
+    [26.98, "De pronto."],
+    [28.04, "Definição de pronto."],
+    [29.12, "E critérios de aceite explícitos."],
+    [31.98, "Eliminam ambiguidade, revisões infinitas e retrabalho tardio."],
+    [37.02, "4."],
+    [37.74, "Planejamento por dados."],
+    [39.56, "Use capacidade real e throughput histórico, não otimismo, para comprometer trabalho no PI."],
+    [46.8, "5."],
+    [48.06, "Ritmo semanal de decisão."],
+    [50.56, "Janela curta e recorrente para revisar, priorizar e desbloquear, impedindo o acúmulo de impedimentos."]
   ],
   [
-    [0.0, "O maior obstáculo à limitação de WIP é cultural."],
-    [8.7, "Mais frentes simultâneas parecem produtividade, mas reduzem impacto."]
-  ],
-  [
-    [0.0, "Três anti‑padrões: priorização tardia, demandas fora do processo, trabalho entubado."],
-    [10.2, "Todos aumentam WIP invisível."]
-  ],
-  [
-    [0.0, "Time ocupado não é sinônimo de produtivo."],
-    [7.9, "Produtividade real vem do fluxo, não do esforço individual."]
-  ],
-  [
-    [0.0, "Cinco alavancas práticas: WIP visual, lotes menores, regras claras de pronto, planejamento por dados, ritmo semanal de decisão."]
-  ],
-  [
-    [0.0, "Quatro recomendações normativas: limitar WIP, monitorar Lead Time, usar Vazão histórica, integrar métricas à governança."]
+    [0.0, "4."],
+    [1.5, "Recomendações normativas baseadas na literatura de referência em agilidade em larga escala."],
+    [8.6, "1."],
+    [9.18, "Limitação consciente de WIP."],
+    [11.42, "Estabeleça limites explícitos por time, ART e fluxo de valor."],
+    [16.66, "Trate excesso de WIP como risco operacional, não como sinal de produtividade."],
+    [22.38, "2."],
+    [23.26, "Monitoramento sistemático de lead time."],
+    [26.52, "Acompanhe média, variabilidade e tendência."],
+    [29.5, "Lead times crescentes são gatilho para análise de causa raiz."],
+    [34.62, "3."],
+    [35.42, "Throughput como base de planejamento."],
+    [38.44, "Use vazão histórica para comprometer trabalho no PI Planning e evitar sobre-promessas."],
+    [45.7, "4."],
+    [46.7, "Métricas integradas à governança."],
+    [49.72, "Leve esses dados para o PI Planning, o Inspect and Adapt e os fóruns executivos."],
+    [55.72, "Decisões baseadas em evidências, não em intuição."]
   ],
   [
     [0.0, "A saúde do fluxo depende da coerência entre planejamento, execução e governança."],
-    [9.6, "Maturidade ágil é compreender e otimizar o fluxo de valor de ponta a ponta."]
+    [7.04, "Os três precisam estar alinhados para que as métricas reflitam a realidade e as intervenções funcionem."],
+    [14.82, "Indicadores de fluxo devem ser usados como instrumentos de aprendizado e melhoria sistêmica."],
+    [21.06, "Jamais como ferramentas de pressão ou controle individual."],
+    [26.34, "A melhoria contínua exige transparência sobre o estado real do sistema."],
+    [31.64, "Alinhamento entre os níveis de decisão e coragem institucional para fazer escolhas difíceis."],
+    [38.38, "Sem governança respeitada em todos os níveis, a agilidade perde sua função transformadora."],
+    [44.9, "A maturidade ágil não se resume à adoção formal do framework, mas à capacidade de compreender e otimizar o fluxo de valor de ponta a ponta."]
   ]
 ]
+ENDJSON
+python3 -c "import json; data=json.load(open('/tmp/captions.json')); print(f'Entradas: {len(data)}'); [print(f'[{i+1:02d}]: {len(e)} cues, {e[0][0]}s → {e[-1][0]}s') for i,e in enumerate(data)]"
+Entradas: 31
+[01]: 3 cues, 0.0s → 27.4s
+[02]: 5 cues, 0.0s → 33.38s
+[03]: 3 cues, 0.0s → 25.26s
+[04]: 6 cues, 0.0s → 35.64s
+[05]: 7 cues, 0.0s → 37.74s
+[06]: 8 cues, 0.0s → 39.36s
+[07]: 6 cues, 0.0s → 38.32s
+[08]: 8 cues, 0.0s → 37.26s
+[09]: 6 cues, 0.0s → 40.16s
+[10]: 9 cues, 0.0s → 39.84s
+[11]: 10 cues, 0.0s → 40.14s
+[12]: 13 cues, 0.0s → 51.92s
+[13]: 13 cues, 0.0s → 47.36s
+[14]: 9 cues, 0.0s → 47.42s
+[15]: 8 cues, 0.0s → 52.94s
+[16]: 10 cues, 0.0s → 52.32s
+[17]: 7 cues, 0.0s → 35.5s
+[18]: 5 cues, 0.0s → 35.54s
+[19]: 5 cues, 0.0s → 33.26s
+[20]: 6 cues, 0.0s → 34.14s
+[21]: 8 cues, 0.0s → 40.48s
+[22]: 7 cues, 0.0s → 40.5s
+[23]: 6 cues, 0.0s → 39.42s
+[24]: 8 cues, 0.0s → 42.46s
+[25]: 5 cues, 0.0s → 34.52s
+[26]: 11 cues, 0.0s → 55.98s
+[27]: 7 cues, 0.0s → 41.72s
+[28]: 13 cues, 0.0s → 50.82s
+[29]: 20 cues, 0.0s → 50.56s
+[30]: 17 cues, 0.0s → 55.72s
+[31]: 8 cues, 0.0s → 44.9s
