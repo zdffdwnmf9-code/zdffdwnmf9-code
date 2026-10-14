@@ -1,4 +1,3 @@
-$ cat > /tmp/captions.json << 'ENDJSON'
 [
   [
     [0.0, "Esta apresentação trata de gestão de fluxo, a ciência de fazer o trabalho fluir de forma previsível, rápida e sustentável."],
