@@ -723,23 +723,23 @@
       "Um gargalo é o ponto do processo onde a capacidade de processamento é menor que a demanda que chega, criando acúmulo e atrasos."
     ],
     [
-      10.74,
+      9.19,
       "No pipeline aqui representado, a etapa Testando concentra 11 Histórias, enquanto as demais etapas têm de 1 a 3."
     ],
     [
-      20.74,
+      18.16,
       "Esse desequilíbrio é o gargalo."
     ],
     [
-      23.42,
+      20.81,
       "Os três sinais que o denunciam são: Lead Time subindo, WIP acumulado na etapa congestionada e Vazão caindo."
     ],
     [
-      32.0,
+      29.9,
       "A solução nem sempre é contratar mais pessoas."
     ],
     [
-      35.5,
+      33.19,
       "É preciso aumentar a capacidade em Testando ou reduzir a taxa de entrada para equilibrar o fluxo."
     ]
   ],
